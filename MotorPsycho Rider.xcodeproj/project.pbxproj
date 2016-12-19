@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7728A01E089A2400E3941B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E77289F1E089A2400E3941B /* AppDelegate.swift */; };
+		3E7728A21E089A2400E3941B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7728A11E089A2400E3941B /* ViewController.swift */; };
+		3E7728A51E089A2400E3941B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7728A31E089A2400E3941B /* Main.storyboard */; };
+		3E7728A71E089A2400E3941B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7728A61E089A2400E3941B /* Assets.xcassets */; };
+		3E7728AA1E089A2400E3941B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7728A81E089A2400E3941B /* LaunchScreen.storyboard */; };
+		3E7728B51E089A2400E3941B /* MotorPsycho_RiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7728B41E089A2400E3941B /* MotorPsycho_RiderTests.swift */; };
+		3E7728C01E089A2400E3941B /* MotorPsycho_RiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7728BF1E089A2400E3941B /* MotorPsycho_RiderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7728B11E089A2400E3941B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7728941E089A2300E3941B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E77289B1E089A2300E3941B;
+			remoteInfo = "MotorPsycho Rider";
+		};
+		3E7728BC1E089A2400E3941B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7728941E089A2300E3941B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E77289B1E089A2300E3941B;
+			remoteInfo = "MotorPsycho Rider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E77289C1E089A2400E3941B /* MotorPsycho Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MotorPsycho Rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E77289F1E089A2400E3941B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E7728A11E089A2400E3941B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E7728A41E089A2400E3941B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7728A61E089A2400E3941B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7728A91E089A2400E3941B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E7728AB1E089A2400E3941B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7728B01E089A2400E3941B /* MotorPsycho RiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MotorPsycho RiderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7728B41E089A2400E3941B /* MotorPsycho_RiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorPsycho_RiderTests.swift; sourceTree = "<group>"; };
+		3E7728B61E089A2400E3941B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7728BB1E089A2400E3941B /* MotorPsycho RiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MotorPsycho RiderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7728BF1E089A2400E3941B /* MotorPsycho_RiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorPsycho_RiderUITests.swift; sourceTree = "<group>"; };
+		3E7728C11E089A2400E3941B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7728991E089A2300E3941B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7728AD1E089A2400E3941B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7728B81E089A2400E3941B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7728931E089A2300E3941B = {
+			isa = PBXGroup;
+			children = (
+				3E77289E1E089A2400E3941B /* MotorPsycho Rider */,
+				3E7728B31E089A2400E3941B /* MotorPsycho RiderTests */,
+				3E7728BE1E089A2400E3941B /* MotorPsycho RiderUITests */,
+				3E77289D1E089A2400E3941B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E77289D1E089A2400E3941B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E77289C1E089A2400E3941B /* MotorPsycho Rider.app */,
+				3E7728B01E089A2400E3941B /* MotorPsycho RiderTests.xctest */,
+				3E7728BB1E089A2400E3941B /* MotorPsycho RiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E77289E1E089A2400E3941B /* MotorPsycho Rider */ = {
+			isa = PBXGroup;
+			children = (
+				3E77289F1E089A2400E3941B /* AppDelegate.swift */,
+				3E7728A11E089A2400E3941B /* ViewController.swift */,
+				3E7728A31E089A2400E3941B /* Main.storyboard */,
+				3E7728A61E089A2400E3941B /* Assets.xcassets */,
+				3E7728A81E089A2400E3941B /* LaunchScreen.storyboard */,
+				3E7728AB1E089A2400E3941B /* Info.plist */,
+			);
+			path = "MotorPsycho Rider";
+			sourceTree = "<group>";
+		};
+		3E7728B31E089A2400E3941B /* MotorPsycho RiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7728B41E089A2400E3941B /* MotorPsycho_RiderTests.swift */,
+				3E7728B61E089A2400E3941B /* Info.plist */,
+			);
+			path = "MotorPsycho RiderTests";
+			sourceTree = "<group>";
+		};
+		3E7728BE1E089A2400E3941B /* MotorPsycho RiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7728BF1E089A2400E3941B /* MotorPsycho_RiderUITests.swift */,
+				3E7728C11E089A2400E3941B /* Info.plist */,
+			);
+			path = "MotorPsycho RiderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E77289B1E089A2300E3941B /* MotorPsycho Rider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7728C41E089A2400E3941B /* Build configuration list for PBXNativeTarget "MotorPsycho Rider" */;
+			buildPhases = (
+				3E7728981E089A2300E3941B /* Sources */,
+				3E7728991E089A2300E3941B /* Frameworks */,
+				3E77289A1E089A2300E3941B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotorPsycho Rider";
+			productName = "MotorPsycho Rider";
+			productReference = 3E77289C1E089A2400E3941B /* MotorPsycho Rider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E7728AF1E089A2400E3941B /* MotorPsycho RiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7728C71E089A2400E3941B /* Build configuration list for PBXNativeTarget "MotorPsycho RiderTests" */;
+			buildPhases = (
+				3E7728AC1E089A2400E3941B /* Sources */,
+				3E7728AD1E089A2400E3941B /* Frameworks */,
+				3E7728AE1E089A2400E3941B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7728B21E089A2400E3941B /* PBXTargetDependency */,
+			);
+			name = "MotorPsycho RiderTests";
+			productName = "MotorPsycho RiderTests";
+			productReference = 3E7728B01E089A2400E3941B /* MotorPsycho RiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E7728BA1E089A2400E3941B /* MotorPsycho RiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7728CA1E089A2400E3941B /* Build configuration list for PBXNativeTarget "MotorPsycho RiderUITests" */;
+			buildPhases = (
+				3E7728B71E089A2400E3941B /* Sources */,
+				3E7728B81E089A2400E3941B /* Frameworks */,
+				3E7728B91E089A2400E3941B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7728BD1E089A2400E3941B /* PBXTargetDependency */,
+			);
+			name = "MotorPsycho RiderUITests";
+			productName = "MotorPsycho RiderUITests";
+			productReference = 3E7728BB1E089A2400E3941B /* MotorPsycho RiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7728941E089A2300E3941B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zach Halvorsen";
+				TargetAttributes = {
+					3E77289B1E089A2300E3941B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T5TJB2G8W7;
+						ProvisioningStyle = Automatic;
+					};
+					3E7728AF1E089A2400E3941B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T5TJB2G8W7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E77289B1E089A2300E3941B;
+					};
+					3E7728BA1E089A2400E3941B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T5TJB2G8W7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E77289B1E089A2300E3941B;
+					};
+				};
+			};
+			buildConfigurationList = 3E7728971E089A2300E3941B /* Build configuration list for PBXProject "MotorPsycho Rider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E7728931E089A2300E3941B;
+			productRefGroup = 3E77289D1E089A2400E3941B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E77289B1E089A2300E3941B /* MotorPsycho Rider */,
+				3E7728AF1E089A2400E3941B /* MotorPsycho RiderTests */,
+				3E7728BA1E089A2400E3941B /* MotorPsycho RiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E77289A1E089A2300E3941B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7728AA1E089A2400E3941B /* LaunchScreen.storyboard in Resources */,
+				3E7728A71E089A2400E3941B /* Assets.xcassets in Resources */,
+				3E7728A51E089A2400E3941B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7728AE1E089A2400E3941B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7728B91E089A2400E3941B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7728981E089A2300E3941B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7728A21E089A2400E3941B /* ViewController.swift in Sources */,
+				3E7728A01E089A2400E3941B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7728AC1E089A2400E3941B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7728B51E089A2400E3941B /* MotorPsycho_RiderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7728B71E089A2400E3941B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7728C01E089A2400E3941B /* MotorPsycho_RiderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7728B21E089A2400E3941B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E77289B1E089A2300E3941B /* MotorPsycho Rider */;
+			targetProxy = 3E7728B11E089A2400E3941B /* PBXContainerItemProxy */;
+		};
+		3E7728BD1E089A2400E3941B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E77289B1E089A2300E3941B /* MotorPsycho Rider */;
+			targetProxy = 3E7728BC1E089A2400E3941B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E7728A31E089A2400E3941B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7728A41E089A2400E3941B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E7728A81E089A2400E3941B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7728A91E089A2400E3941B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E7728C21E089A2400E3941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E7728C31E089A2400E3941B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E7728C51E089A2400E3941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5TJB2G8W7;
+				INFOPLIST_FILE = "MotorPsycho Rider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alphanumeric-apps.MotorPsycho-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E7728C61E089A2400E3941B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5TJB2G8W7;
+				INFOPLIST_FILE = "MotorPsycho Rider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alphanumeric-apps.MotorPsycho-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E7728C81E089A2400E3941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5TJB2G8W7;
+				INFOPLIST_FILE = "MotorPsycho RiderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alphanumeric-apps.MotorPsycho-RiderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorPsycho Rider.app/MotorPsycho Rider";
+			};
+			name = Debug;
+		};
+		3E7728C91E089A2400E3941B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5TJB2G8W7;
+				INFOPLIST_FILE = "MotorPsycho RiderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alphanumeric-apps.MotorPsycho-RiderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorPsycho Rider.app/MotorPsycho Rider";
+			};
+			name = Release;
+		};
+		3E7728CB1E089A2400E3941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T5TJB2G8W7;
+				INFOPLIST_FILE = "MotorPsycho RiderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alphanumeric-apps.MotorPsycho-RiderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MotorPsycho Rider";
+			};
+			name = Debug;
+		};
+		3E7728CC1E089A2400E3941B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T5TJB2G8W7;
+				INFOPLIST_FILE = "MotorPsycho RiderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alphanumeric-apps.MotorPsycho-RiderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MotorPsycho Rider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7728971E089A2300E3941B /* Build configuration list for PBXProject "MotorPsycho Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7728C21E089A2400E3941B /* Debug */,
+				3E7728C31E089A2400E3941B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7728C41E089A2400E3941B /* Build configuration list for PBXNativeTarget "MotorPsycho Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7728C51E089A2400E3941B /* Debug */,
+				3E7728C61E089A2400E3941B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E7728C71E089A2400E3941B /* Build configuration list for PBXNativeTarget "MotorPsycho RiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7728C81E089A2400E3941B /* Debug */,
+				3E7728C91E089A2400E3941B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E7728CA1E089A2400E3941B /* Build configuration list for PBXNativeTarget "MotorPsycho RiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7728CB1E089A2400E3941B /* Debug */,
+				3E7728CC1E089A2400E3941B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7728941E089A2300E3941B /* Project object */;
+}
